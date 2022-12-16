@@ -1,0 +1,5 @@
+first_name,last_name,assessemnt_name,score,competency_name
+Jake,Egbert,Loops Test,2.0,Loops
+Jake,Egbert,Exception Handling Test,1.0,Exception Handling
+Jake,Egbert,Object-Oriented Programming Test,2.5,Object-Oriented Programming
+Jake,Egbert,Quality Assurance Test,1.0,Quality Assurance (QA)

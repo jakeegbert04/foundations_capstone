@@ -1,0 +1,17 @@
+competency_id, name, date_created
+1,Computer Anatomy Test,12-1-2022
+2,Data Types Test,12-2-2022
+3,Variables Test,11-15-2022
+4,Functions Test,12-7-2022
+5,Boolean Logic Test,12-8-2022
+6,Conditionals Test,11-20-2022
+7,Loops Test,12-9-2022
+8,Data Structures Test,11-25-2022
+9,Lists Test,11-27-2022
+10,Dictionaries Test,12-3-2022
+11,Working with Files Test,11-5-2022
+12,Exception Handling Test,11-10-2022
+13,Quality Assurance Test,11-13-2022
+14,Object-Oriented Programming Test,11-14-2022
+15,Recursion Test,11-16-2022
+16,Databases Test,11-18-2022
