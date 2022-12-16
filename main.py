@@ -684,9 +684,7 @@ def get_user(user=None):
     if user == None:
 
         user_name = input("Search for user using first name or last name:\n>>>  ")
-        view_all_users(
-            user_name
-        )  # I used the force to make you think this already exists. Return a list of all users in DB
+        view_all_users(user_name)
 
         user_id = input("Which ID?\n>>> ")
         query = "SELECT * FROM Users WHERE user_id = ?"
@@ -724,9 +722,7 @@ def get_user(user=None):
 
 def get_comp():
     search_comp = input("Search for competencies using the competency name:\n>>>  ")
-    view_all_comps(
-        search_comp
-    )  # I used the force to make you think this already exists. Return a list of all users in DB
+    view_all_comps(search_comp)
 
     comp_name = input("Which Competency?\n>>> ")
     query = "SELECT * FROM Competencies WHERE competency_id LIKE ?"
@@ -1171,28 +1167,4 @@ def manager_menu(current_user_id):
             print("Invalid option pleade try again")
 
 
-# create_schema()
-# import_asses_res()
-# import_users()
-# import_comp_list()
-# import_asses()
-# view_user_comp_level()
-# view_user_comp_level()
 login()
-# view_all_assess_res()
-# manager_menu(current_user_id=None)
-# get_user()
-# user_add()
-# where = input(
-#     "Search for user using first name or last name. (Leave blank if you want to view all)\n>>> "
-# )
-# view_all(where)
-# user_comp_sum()
-# comp_res_sum()
-# comp_add()
-# view_all_comps()
-# get_comp()
-# while True:
-# view_all_assess_user(where=None)
-# user_menu(current_user_id=None)
-# JOhn Loves you
